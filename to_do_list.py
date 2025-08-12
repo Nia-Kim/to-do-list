@@ -12,7 +12,13 @@ Original file is located at
 todo_list = []
 
 while True:
-    print("\n원하는 작업의 번호를 입력하세요.\n1. 할 일 추가\n2. 할 일 수정\n3. 할 일 삭제\n3. 종료")
+    print("""
+    원하는 작업의 번호를 입력하세요.
+    1. 할 일 추가
+    2. 할 일 수정
+    3. 할 일 삭제
+    4. 종료
+    """)
     task = int(input("\n작업 선택: "))
     sc = 1 #while문 on을 위한 스위치 (0은 off, 1은 on)
 
